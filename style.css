@@ -81,3 +81,113 @@ main h1 {
 .search-box button:hover {
     background-color: #55358f;
 }
+#animeResult {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.anime-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.anime-card h2 {
+    color: #6c4ab6;
+    margin-top: 0;
+}
+
+.anime-card p {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.anime-card img {
+    width: 180px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+.anime-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.anime-card img {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.anime-card h2 {
+    text-align: center;
+    color: #6c4ab6;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.anime-card p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 12px 0;
+}
+
+.anime-card strong {
+    color: #6c4ab6;
+}
+.auth-section {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.auth-section h2 {
+    color: #6c4ab6;
+    margin-bottom: 25px;
+}
+
+.auth-section input {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 13px;
+    border: 2px solid #6c4ab6;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.auth-section button {
+    padding: 13px 30px;
+    background-color: #6c4ab6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-section button:hover {
+    background-color: #55358f;
+}
+
+.auth-section p {
+    font-size: 15px;
+    margin-top: 15px;
+}

@@ -3,35 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AnimeHub</title>
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <nav>
+<nav>
     <div class="logo">AnimeHub 🎌</div>
 
     <div class="nav-links">
         <a href="#">Home</a>
         <a href="#">Search</a>
-        <a href="#">Login</a>
-        <a href="#">Register</a>
+        <a href="#loginSection">Login</a>
+        <a href="#registerSection">Register</a>
     </div>
 </nav>
+
 <main>
+
     <h1>Welcome to AnimeHub 🎌</h1>
 
     <p>Search and discover your favorite anime.</p>
 
-    <div class="search-box">
-       <input type="text" id="animeSearch" placeholder="Search for an anime...">
-       <button id="searchButton">Search 🔍</button>
-    </div>
-</main>
+    <!-- Anime Search -->
 
-    
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="animeSearch"
+            placeholder="Search for an anime..."
+        >
+
+        <button id="searchButton">
+            Search 🔍
+        </button>
+
+    </div>
+
+    <div id="animeResult"></div>
+
+
+    <!-- Register Section -->
+
+    <section id="registerSection" class="auth-section">
+
+        <h2>Create an Account</h2>
+
+        <input
+            type="text"
+            id="registerName"
+            placeholder="Enter your name"
+        >
+
+        <input
+            type="email"
+            id="registerEmail"
+            placeholder="Enter your email"
+        >
+
+        <input
+            type="password"
+            id="registerPassword"
+            placeholder="Enter your password"
+        >
+
+        <button id="registerButton">
+            Register
+        </button>
+
+        <p id="registerMessage"></p>
+
+    </section>
+
+
+    <!-- Login Section -->
+
+    <section id="loginSection" class="auth-section">
+
+        <h2>Login</h2>
+
+        <input
+            type="email"
+            id="loginEmail"
+            placeholder="Enter your email"
+        >
+
+        <input
+            type="password"
+            id="loginPassword"
+            placeholder="Enter your password"
+        >
+
+        <button id="loginButton">
+            Login
+        </button>
+
+        <p id="loginMessage"></p>
+
+    </section>
+
+</main>
 
 </body>
 </html>
